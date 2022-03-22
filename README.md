@@ -67,7 +67,7 @@ create table books(barcode varchar(100) primary key, name varchar(100), author v
 create table users(username varchar(100) primary key,password varchar(100), firstname varchar(100),
     lastname varchar(100),address text, phone varchar(100),mailid varchar(100),usertype int);
 
-insert into books values('10101','Programming in C','James k Wick',500,5);
+insert into books values('10101','Programming in C','James k Wick',501,5);
 insert into books values('10102','Learn Java','Scott Mayers',150,13);
 insert into books values('10103','Database Knowledge','Charles Pettzoid',124,360);
 insert into books values('10104','Let us c++','Steve Macclen',90,111);
